@@ -76,10 +76,7 @@ def random_ua():
     ua = random.choice([ua1,ua2,ua3,ua4,ua5,ua6])
     return(ua)
 myid=uuid.uuid4().hex[:5].upper()
-try:
-    key1 = open('/data/data/com.termux/files/usr/bin/.mrakingxxx-cov', 'r').read()
-except:
-    kok=open('/data/data/com.termux/files/usr/bin/.mrakingxxx-cov', 'w');kok.write(myid);kok.close()
+
 uid = os.getuid()
 key1 = open('/data/data/com.termux/files/usr/bin/.mrakingxxx-cov', 'r').read()
 kex=(f"AKING-XD~CREATE:{uid}TS{key1}110E==")
