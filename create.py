@@ -131,7 +131,7 @@ def main():
         else:
             print(' Update done successfully. Wait for setup! ')
             time.sleep(2)
-            os.system('rm -rf AutoCreate && python create.py')
+            Create()
             exit()
     except Exception as e:
         exit('\n Network connection error '+str(e))
