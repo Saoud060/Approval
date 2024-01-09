@@ -1,7 +1,5 @@
-YUT1= "[FBAN/FB4A;FBAV/78.0.0.16.67;FBBV/30529816;FBDM/{density=2.0,width=720,height=1280};FBLC/en_US;FBCR/MTN NG;FBMF/Infinix;FBBD/Infinix;FBPN/com.facebook.katana;FBDV/Infinix_X521;FBSV/6.0;FBOP/1;FBCA/armeabi-v7a:armeabi;]"
-
-YUT2 = '[FBAN/FB4A;FBAV/405.0.0.23.72;FBBV/453370252;FBDM/{density=3.0,width=1080,height=2176};FBLC/it_IT;FBRV/0;FBCR/vodafone IT;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-G991B;FBSV/13;FBOP/1;FBCA/arm64-v8a:;]'
-
-YUT3 = '[FBAN/FB4A;FBAV/222.0.0.48.113;FBBV/1456536;[FBAN/FB4A;FBBV/155323366;FBDM/density2.0width720height1360;FBLC/sr_RS;FBRV/156625696;FBCR/mt:s;FBMF/HUAWEI;FBBD/HUAWEI;FBPN/com.facebook.katana;FBDV/LDN-L21;FBSV/8.0.0;FBOP/19;FBCA/armeabi-v7a:armeabi;]'
-
-YUT4 ='[FBAN/FB4A;FBAV/224.0.0.33.114;FBBV/1457654;[FBAN/FB4A;FBBV/157411927;FBDM/{density=2.25,width=720,height=1280};FBLC/ru_RU;FBRV/0;FBCR/Beeline;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-J510H;FBSV/7.1.1;FBOP/19;FBCA/armeabi-v7a:armeabi;]'
+YUT1= "[FBAN/Orca-Android;FBAV/106.0.0.5675;[FBAN/Orca-Android;FBAV/260.0.0.22.122;FBPN/com.facebook.orca;FBLC/en_US;FBBV/209190396;FBCR/T-Mobile;FBMF/samsung;FBBD/samsung;FBDV/SM-G960U;FBSV/8.0.0;FBCA/armeabi-v7a:armeabi;FBDM/{density=3.0,width=1080,height=2076};]"
+YUT2 = '[FBAN/Orca-Android;FBAV/106.0.0.5675;[FBAN/Orca-Android;FBAV/377.0.0.13.101;FBPN/com.facebook.orca;FBLC/en_US;FBBV/396116327;FBCR/MTN;FBMF/INFINIX;FBBD/Infinix;FBDV/Infinix X669;FBSV/12;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.0,width=720,height=1444};]'
+YUT3 = '[FBAN/FB4A;FBAV/194.0.0.5565;FBBV/1456536;[FBAN/Orca-Android;FBAV/241.0.0.17.116;FBPN/com.facebook.orca;FBLC/en_PH;FBBV/182747450;FBCR/GLOBE;FBMF/samsung;FBBD/samsung;FBDV/SM-A505GN;FBSV/9;FBCA/arm64-v8a:null;FBDM/{density=2.625,width=1080,height=2131};]'
+YUT4 ='[FBAN/FB4A;FBAV/195.0.0.3567;FBBV/1457654;[FBAN/Orca-Android;FBAV/212.1.0.13.109;FBPN/com.facebook.orca;FBLC/en_US;FBBV/151534286;FBCR/;FBMF/HUAWEI;FBBD/HUAWEI;FBDV/INE-LX1r;FBSV/9;FBCA/armeabi-v7a:armeabi;FBDM/{density=3.0,width=1080,height=2128};]'
+YUT ='[FBAN/FB4A;FBAV/195.0.0.3567;FBBV/1457654[FBAN/Orca-Android;FBAV/181.0.0.12.78;FBPN/com.facebook.orca;FBLC/tr_TR;FBBV/122216364;FBCR/Turk Telekom;FBMF/samsung;FBBD/samsung;FBDV/SM-J700F;FBSV/6.0.1;FBCA/armeabi-v7a:armeabi;FBDM/{density=3.0,width=1080,height=2128};]'
