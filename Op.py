@@ -94,7 +94,7 @@ def ANZU_UA():
     ss = "Dalvik/2.1.0 (Linux; U; Android " + ad + "; " + mdl + " Build/" + bld + ") "
     s = "[FBAN/Orca-Android;FBAV/" + str(random.randint(11, 89)) + '.0.0.' + str(random.randrange(9, 99)) + str(random.randint(11, 99)) + ";FBBV/" + str(random.randint(1111111, 9999999))
     e = "[FBAN/Orca-Android;FBAV/" + rrr + ";FBPN/com.facebook.orca;FBLC/" + localeh + ";FBBV/383940242;FBCR/" + fbcr + ";FBMF/samsung;FBBD/samsung;FBDV/" + fff + ";FBSV/" + and_ver + ";FBCA/armeabi-v7a:armeabi;FBDM/" + resolutions + ";]"
-    ee = ";[FBAN/Orca-Android;FBAV/29.0.0.1715;FBPN/com.facebook.orca;FBLC/gsw;FBBV/857039724;FBCR/Algar Telecom;FBMF/samsung;FBBD/samsung;FBDV/" + fff + ";FBSV/" + and_ver + ";FBCA/armeabi-v7a:armeabi;FBDM/" + resolutions + ";FB_FW1;FBRV/" + str(random.randint(111111111, 999999999)) + ";]"
+    ee = ";[FBAN/Orca-Android;FBAV/29.0.0.1715;FBPN/com.facebook.orca;FBLC/gsw;FBBV/857039724;FBCR/Algar Telecom;FBMF/samsung;FBBD/samsung;FBDV/" + fff + ";FBSV/" + and_ver + ";FBCA/armeabi-v7a:armeabi;FBDM/" + resolutions + ";FB_FW/1;FBRV/" + str(random.randint(111111111, 999999999)) + ";]"
     ua = s + ee
 
     return ua
