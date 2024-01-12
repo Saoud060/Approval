@@ -93,7 +93,7 @@ def ANZU_UA():
     mdl, bld = random.choice(samsung).split('|')
     ss = "Dalvik/2.1.0 (Linux; U; Android " + ad + "; " + mdl + " Build/" + bld + ") "
     s = "[FBAN/Orca-Android;FBAV/" + str(random.randint(11, 99)) + '.0.0.' + str(random.randrange(9, 99)) + str(random.randint(11, 99)) + ";FBBV/" + str(random.randint(1111111, 9999999))
-    e = ";[FBAN/Orca-Android;FBAV/" + rrr + ";FBPN/com.facebook.orca;FBLC/en_US;FBBV/218047938;FBCR/Vodaphone US;FBMF/Redmi;FBBD/Redmi;FBDV/" + Redm + ";FBSV/" + and_ver + ";FBCA/armeabi-v7a:armeabi;FBDM/" + resolutions + ";FB_FW/1;FBRV/219557400;]"
+    e = ";[FBAN/Orca-Android;FBAV/196.0.0.64;FBPN/com.facebook.orca;FBLC/" + localeh + ";FBBV/800445933;FBCR/Telenor;FBMF/samsung;FBBD/samsung;FBDV/" + fff + ";FBSV/" + and_ver + ";FBCA/armeabi-v7a:armeabi;FBDM/" + resolutions + ";FB_FW/1;FBRV/968070084;]"
     ua = s + e
 
     return ua
