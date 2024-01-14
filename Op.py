@@ -118,4 +118,5 @@ if ";FBLC/" in result:
         #######print("Selected Locale:", selected_locale)
 else:
     ######print("Error: ';FBLC/' not found in result")
-           
+    selected_locale = 'en_CZ'
+    separated_country_code = 'CZ'
