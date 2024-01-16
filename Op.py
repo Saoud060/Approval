@@ -93,8 +93,8 @@ def ANZU_UA():
     mdl, bld = random.choice(samsung).split('|')
     ss = "Dalvik/2.1.0 (Linux;U;Android " + ad + ";" + mdl + " Build/" + bld + ") "
     s = "[FBAN/FB4A;FBAV/" + str(random.randint(11, 99)) + '.0.0.' + str(random.randrange(9, 99)) + str(random.randint(11, 99)) + ";FBBV/" + str(random.randint(1111111, 9999999))
-    e = ";[FBAN/FB4A;FBAV/335.0.0.28.118;FBBV/316528028;FBDM/" + resolutions + ";FBLC/" +  localeh + ";FBRV/318280044;FB_FW/2;FBCR/Hringdu;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/" + fff + ";FBSV/" +  and_ver + ";FBOP/19;FBCA/arm64-v8a:;]"
-    ek = ";[FBAN/FB4A;FBAV/426.0.0.26.50;FBBV/500449097;FBDM/" + resolutions + ";FBLC/" + localeh + ";FBRV/501615570;FB_FW/2;FBCR/ASTC;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/" + fff + ";FBSV/" +  and_ver + ";FBOP/1;FBCA/arm64-v8a:;]"
+    e = ";[FBAN/FB4A;FBAV/42.0.0.30.77;FBBV/552940488;FBDM/" + resolutions + ";FBLC/" +  localeh + ";FBRV/567009786;FBCR/" +  fbcr + ";FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/" + fff + ";FBSV/" +  and_ver + ";FBBK/1;FBOP/1;FBCA/arm64-v8a]"
+    ek = ";[FBAN/FB4A;FBAV/24.0.0.20.44;FBBV/531411438;FBDM/" + resolutions + ";FBLC/" +  localeh + ";FBRV/569829631;FBCR/Tigo Guatemala;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/" + fff + ";FBSV/" +  and_ver + ";FBOP/1;FBCA/arm64-v8a:armeabi;;]"
     ua = s + e
     ua1 = s + ek
     uaa = random.choice([ua, ua1])
