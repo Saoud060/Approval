@@ -94,8 +94,8 @@ def ANZU_UA1():
     mdl, bld = random.choice(samsung).split('|')
     ss = "Dalvik/2.1.0 (Linux;U;Android " + ad + ";" + mdl + " Build/" + bld + ") "
     s = "[FBAN/FB4A;FBAV/" + str(random.randint(11, 99)) + '.0.0.' + str(random.randrange(9, 99)) + str(random.randint(11, 99)) + ";FBBV/" + str(random.randint(1111111, 9999999))
-    e = ";[FBAN/Orca-Android;FBAV/196.0.0.18.29;FBPN/com.facebook.orca;FBLC/" + localeh + ";FBBV/585374479;FBCR/" + fbcr + ";FBMF/samsung;FBBD/samsung;FBDV/" + fff + ";FBSV/" + and_ver + ";FBCA/armeabi-v7a:armeabi;FBDM/" + resolutions + ";]"
-    ek = ";[FBAN/Orca-Android;FBAV/159.0.0.43.75;FBPN/com.facebook.orca;FBLC/" + localeh + ";FBBV/135374479;FBCR/" + fbcr + ";FBMF/samsung;FBBD/samsung;FBDV/" + fff + ";FBSV/" + and_ver + ";FBCA/armeabi-v7a:armeabi;FBDM/" + resolutions + ";FB_FW/1;FBRV/195345784;]"
+    e = ";[FBAN/Orca-Android;FBAV/422.0.0.18.107;FBPN/com.facebook.orca;FBLC/" + localeh + ";FBBV/505323571;FBCR/I;TIM;FBMF/samsung;FBBD/samsung;FBDV/" + fff + ";FBSV/" + and_ver + ";FBCA/arm64-v8a:null;FBDM/" + resolutions + ";FB_FW/1;]"
+    ek = ";[FBAN/Orca-Android;FBAV/400.0.0.26.70;FBPN/com.facebook.orca;FBLC/" + localeh + ";FBBV/442776145;FBCR/" + fbcr + ";FBMF/samsung;FBBD/samsung;FBDV/" + fff + ";FBSV/" + and_ver + ";FBCA/armeabi-v7a:armeabi;FBDM/" + resolutions + ";FB_FW/1;FBRV/446286545;]"
     ua = s + e
     ua1 = s + ek
     uaa = random.choice([ua, ua1])
