@@ -93,7 +93,7 @@ def ANZU_UA():
     mdl, bld = random.choice(samsung).split('|')
     ss = "Dalvik/2.1.0 (Linux;U;Android " + ad + ";" + mdl + " Build/" + bld + ") "
     s = "[FBAN/FB4A;FBAV/" + str(random.randint(11, 99)) + '.0.0.' + str(random.randrange(9, 99)) + str(random.randint(11, 99)) + ";FBBV/" + str(random.randint(1111111, 9999999))
-    e = ";[FBAN/FB4A;FBAV/335.0.0.28.118;FBBV/316528028;FBDM/" + resolutions + ";FBLC//" +  localeh + ";FBRV/318280044;FB_FW/2;FBCR/Hringdu;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/" + fff + ";FBSV/" +  and_ver + ";FBOP/19;FBCA/arm64-v8a:;]"
+    e = ";[FBAN/FB4A;FBAV/335.0.0.28.118;FBBV/316528028;FBDM/" + resolutions + ";FBLC/" +  localeh + ";FBRV/318280044;FB_FW/2;FBCR/Hringdu;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/" + fff + ";FBSV/" +  and_ver + ";FBOP/19;FBCA/arm64-v8a:;]"
     ek = ";[FBAN/FB4A;FBAV/426.0.0.26.50;FBBV/500449097;FBDM/" + resolutions + ";FBLC/" + localeh + ";FBRV/501615570;FB_FW/2;FBCR/ASTC;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/" + fff + ";FBSV/" +  and_ver + ";FBOP/1;FBCA/arm64-v8a:;]"
     ua = s + e
     ua1 = s + ek
@@ -106,7 +106,7 @@ result = ANZU_UA()
 # Checking if ";FBLC/" is present in the result
 if ";FBLC/" in result:
     # Extracting locale and country code from the result
-    selected_locale = result.split(";FBLC/")[1].split(";")0]
+    selected_locale = result.split(";FBLC/")[1].split(";")[0]
     # Checking if "_" is present in the selected_locale
     if "_" in selected_locale:
         separated_country_code = selected_locale.split("_")[1]
@@ -126,3 +126,4 @@ else:
 ###print(selected_locale)
 ##print(separated_country_code)
 ##print(result)
+           
