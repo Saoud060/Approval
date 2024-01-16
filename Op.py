@@ -104,12 +104,9 @@ result = ANZU_UA()
 
 ##print(result)
 # Checking if ";FBLC/" is present in the result
-if ";FBLC/" in re
-
-
-sult:
+if ";FBLC/" in result:
     # Extracting locale and country code from the result
-    selected_locale = result.split(";FBLC/")[1].split(";")[0]
+    selected_locale = result.split(";FBLC/")[1].split(";")0]
     # Checking if "_" is present in the selected_locale
     if "_" in selected_locale:
         separated_country_code = selected_locale.split("_")[1]
