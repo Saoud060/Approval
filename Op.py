@@ -94,7 +94,7 @@ def ANZU_UA():
     ss = "Dalvik/2.1.0 (Linux;U;Android " + ad + ";" + mdl + " Build/" + bld + ") "
     s = "[FBAN/Orca-Android;FBAV/" + str(random.randint(11, 99)) + '.0.0.' + str(random.randrange(9, 99)) + str(random.randint(11, 99)) + ";FBBV/" + str(random.randint(1111111, 9999999))
     e = ";[FBAN/FB4A;FBAV/445.0.0.34.118;FBBV/448014984;FBDM/" + resolutions + ";FBLC/" +  localeh + ";FBRV/447626277;FBCR/" +  fbcr + ";FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/" + fff + ";FBSV/" +  and_ver + ";FBBK/1;FBOP/1;FBCA/arm64-v8a]"
-    ek = ";[FBAN/Orca-Android;FBAV/196.0.0.69;FBPN/com.facebook.orca;FBLC/" +  localeh + ";FBBV/182747440;FBCR/Ufone;FBMF/samsung;FBBD/samsung;FBDV/KOT4;FBSV/4.0.3;FBCA/armeabi-v7a:armeabi;FBDM/{density=3.2,width=1440,height=2960};]"
+    ek = ";[FBAN/Orca-Android;FBAV/196.0.0.69;FBPN/com.facebook.orca;FBLC/" +  localeh + ";FBBV/182747440;FBCR/Ufone;FBMF/samsung;FBBD/samsung;FBDV/" + fff + ";FBSV/" + and_ver +";FBCA/armeabi-v7a:armeabi;FBDM/{density=3.2,width=1440,height=2960};]"
     #ua = s + e
     ua = s + ek
    ## uaa = random.choice([ua, ua1])
