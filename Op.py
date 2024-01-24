@@ -94,7 +94,7 @@ def ANZU_UA():
     ss = "Dalvik/2.1.0 (Linux; U; Android " + and_ver + "; " + fff + "  Build/SP1A.{random.randint(111111,999999)}.{random.randint(111,999)}) "
     s = "[FBAN/Orca-Android;FBAV/" + str(random.randint(11, 99)) + '.0.0.' + str(random.randrange(9, 99)) + str(random.randint(11, 99)) + ";FBBV/" + str(random.randint(1111111, 9999999))
     e = ";[FBAN/FB4A;FBAV/445.0.0.34.118;FBBV/448014984;FBDM/" + resolutions + ";FBLC/" +  localeh + ";FBRV/447626277;FBCR/" +  fbcr + ";FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/" + fff + ";FBSV/" +  and_ver + ";FBBK/1;FBOP/1;FBCA/arm64-v8a]"
-    ek = "[FBAN/FB4A;FBAV/371.0.0.24.109;FBBV/376721549;FBDM/{density=3.0,width=1080,height=2020};FBLC/" + localeh + ";FBRV/378635886;FBCR/" + fbcr + " ;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/" + fff + ";FBSV/" + and_ver + ";FBOP/1;FBCA/arm64-v8a:;]"
+    ek = "[FBAN/FB4A;FBAV/196.0.0.53;FBBV/486988358;FBDM/" + resolutions + ";FBLC/" + localeh + ";FBRV/489910283;FBCR/" + fbcr + ";FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/" + fff + ";FBSV/" + and_ver + ";FBOP/19;FBCA/arm64-v8a:;]"
     #ua = s + e
     ua = ss + ek
    ## uaa = random.choice([ua, ua1])
@@ -103,7 +103,8 @@ def ANZU_UA():
 result = ANZU_UA()
 
 ##print(result)
-# Checking if ";FBLC/" is present in the result
+#[FBAN/FB4A;FBAV/420.0.0.32.61;FBBV/486988358;FBDM/{density=1.875,width=720,height=1410};FBLC/en_US;FBRV/489910283;FBCR/Home;FBMF/HMD Global;FBBD/Nokia;FBPN/com.facebook.katana;FBDV/N152DL;FBSV/12;FBOP/19;FBCA/arm64-v8a:;]
+Checking if ";FBLC/" is present in the result
 if "FBLC/" in result:
     # Extracting locale and country code from the result
     selected_locale = result.split(";FBLC/")[1].split(";")[0]
