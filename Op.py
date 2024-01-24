@@ -94,10 +94,10 @@ def ANZU_UA():
     ss = "Dalvik/2.1.0 (Linux; U; Android " + and_ver + "; " + fff + " Build/SP1A." + str(random.randint(111111,999999)) + "." + str(random.randint(111,999))
     s = "[FBAN/Orca-Android;FBAV/" + str(random.randint(11, 99)) + '.0.0.' + str(random.randrange(9, 99)) + str(random.randint(11, 99)) + ";FBBV/" + str(random.randint(1111111, 9999999))
     e = ";[FBAN/FB4A;FBAV/445.0.0.34.118;FBBV/448014984;FBDM/" + resolutions + ";FBLC/" +  localeh + ";FBRV/447626277;FBCR/" +  fbcr + ";FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/" + fff + ";FBSV/" +  and_ver + ";FBBK/1;FBOP/1;FBCA/arm64-v8a]"
-    ek = ") [FBAN/FB4A;FBAV/196.0.0.53;FBBV/486988358;FBDM/" + resolutions + ";FBLC/" + localeh + ";FBRV/489910283;FBCR/" + fbcr + ";FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/" + fff + ";FBSV/" + and_ver + ";FBOP/19;FBCA/arm64-v8a:;]"
+    ek = "[FBAN/Orca-Android;FBAV/196.0.0.41;FBPN/com.facebook.orca;FBLC/en_IN;FBBV/261600192;FBCR/" +  fbcr + ";FBMF/Xiaomi;FBBD/Xiaomi;FBDV/" +  Redm + ";FBSV/" +  and_ver + ";FBCA/armeabi-v7a:armeabi;FBDM/" +  resolutions + ";FB_FW/1;FBRV/632207232;]"
     #ua = s + e
-    ua = ss + ek
+    ua = s + ek
    ## uaa = random.choice([ua, ua1])
 
     return ua
-    
+           
