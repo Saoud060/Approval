@@ -100,31 +100,4 @@ def ANZU_UA():
    ## uaa = random.choice([ua, ua1])
 
     return ua
-result = ANZU_UA()
 
-##print(result)
-#[FBAN/FB4A;FBAV/420.0.0.32.61;FBBV/486988358;FBDM/{density=1.875,width=720,height=1410};FBLC/en_US;FBRV/489910283;FBCR/Home;FBMF/HMD Global;FBBD/Nokia;FBPN/com.facebook.katana;FBDV/N152DL;FBSV/12;FBOP/19;FBCA/arm64-v8a:;]
-Checking if ";FBLC/" is present in the result
-if "FBLC/" in result:
-    # Extracting locale and country code from the result
-    selected_locale = result.split(";FBLC/")[1].split(";")[0]
-    # Checking if "_" is present in the selected_locale
-    if "_" in selected_locale:
-        separated_country_code = selected_locale.split("_")[1]
-        # Printing the results
-        ####print("Selected Locale:", selected_locale)
-        ######print("Separated Country Code:", separated_country_code)
-    else:
-        separated_country_code = "PK"
-        ######print("Separated Country Code:", separated_country_code)
-        #######print("Selected Locale:", selected_locale)
-else:
-    ######print("Error: ';FBLC/' not found in result")
-    selected_locale = 'en_CZ'
-    separated_country_code = 'CZ'
-    
-    
-###print(selected_locale)
-##print(separated_country_code)
-##print(result)
-           
